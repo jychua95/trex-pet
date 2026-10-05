@@ -1,0 +1,24 @@
+{
+  "name": "trex-pet",
+  "version": "0.2.0",
+  "description": "A pixel T-Rex above the prompt that reacts to Claude's tool calls, shows session stats, and does tricks on /trex",
+  "author": { "name": "jychua95", "url": "https://github.com/jychua95" },
+  "homepage": "https://github.com/jychua95/trex-pet",
+  "repository": "https://github.com/jychua95/trex-pet",
+  "license": "MIT",
+  "keywords": ["mod", "pet", "pixel-art", "terminal", "above-prompt"],
+  "userConfig": {
+    "bodyColor": {
+      "type": "string",
+      "title": "Dino color",
+      "description": "The T-Rex's color, as a hex value like #d25516",
+      "default": "#d25516"
+    },
+    "groundColor": {
+      "type": "string",
+      "title": "Ground color",
+      "description": "The color of the ground under the T-Rex, as a hex value like #653f24",
+      "default": "#653f24"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "description": "The trex-pet hooks module",
+  "modules": ["./register.ts"]
+}

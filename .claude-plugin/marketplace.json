@@ -1,0 +1,14 @@
+{
+  "name": "trex-pet",
+  "description": "trex-pet, a pixel T-Rex mod for Claude Code",
+  "owner": {
+    "name": "jychua95"
+  },
+  "plugins": [
+    {
+      "name": "trex-pet",
+      "source": "./",
+      "description": "A pixel T-Rex above the prompt that reacts to Claude's tool calls, shows session stats, and does tricks on /trex"
+    }
+  ]
+}
